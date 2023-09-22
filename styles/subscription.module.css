@@ -1,0 +1,33 @@
+.subscription {
+  width: 100%;
+  margin-block: 5rem;
+}
+
+.subscription_box {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.subscription_box_info {
+  text-align: center;
+  line-height: 0;
+}
+
+.subscription_box_info h1 {
+  font-size: 4rem;
+  line-height: 0;
+}
+
+.subscription_box_info p{
+    font-size: 1.5rem;
+    line-height: .5;
+}
+
+.subscription_box_box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    padding-left: 2rem;
+}
